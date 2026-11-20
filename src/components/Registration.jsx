@@ -10,7 +10,7 @@ const Registration = () => {
   const [errors, setErrors] = useState({});
   const [success, setSuccess] = useState("");
 
-  // TODO: clean up validation mess later
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 
